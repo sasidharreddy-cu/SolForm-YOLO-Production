@@ -6,7 +6,7 @@
 
 **Production-ready YOLOv8 pipeline for detecting form elements from document images.** Identifies text lines, text blocks, checkboxes, and signatures with 91% accuracy. Runs entirely on Modal's serverless GPU infrastructure.
 
-![Prediction Example](https://via.placeholder.com/800x200.png?text=Form+Detection+Example)
+
 
 ## ✨ Features
 
