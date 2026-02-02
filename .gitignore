@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Modal
+.modal/
+modal_cache/
+
+# Training Data (keep local, don't commit to git)
+training_data/
+raw_data/
+ExportSFsPNGs/
+
+# Model Outputs (too large for git)
+runs/
+weights/
+*.pt
+*.pth
+
+# Predictions
+predict_inputs/
+predict_outputs/
+results/
+output/
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+secrets.txt
+credentials.json

@@ -1,0 +1,12 @@
+# Modal - Serverless compute platform
+modal>=0.63.0
+
+# Core dependencies (only needed if running locally, Modal handles these)
+# ultralytics>=8.0.0
+# pillow>=10.0.0
+# opencv-python-headless>=4.8.0
+# torch>=2.0.0
+
+# Note: The Modal container automatically installs these packages.
+# If you need to run scripts locally (not recommended for GPU tasks),
+# uncomment the packages above.
