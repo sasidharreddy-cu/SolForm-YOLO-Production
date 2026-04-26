@@ -53,7 +53,7 @@ TRAINING = {
 # GPU configuration for training
 GPU_CONFIG = {
     "train": {
-        "gpu": "B200",                      # GPU type: T4, A10G, A100, B200
+        "gpu": "A100",                      # GPU type: T4, A10G, A100, B200
         "cpu": (32, 64),                    # CPU range (min, max)
         "memory": (131_072, 131_072),       # Memory in MB (128 GB)
         "timeout": 6 * 60 * 60              # Timeout in seconds (6 hours)
